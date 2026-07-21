@@ -1,0 +1,2 @@
+Deja aquí los vídeos (.mp4, H.264 + AAC es lo más compatible).
+Luego añade su entrada en la lista VIDEOS de datos.js.
