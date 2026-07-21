@@ -1,0 +1,67 @@
+EVITA LIMÓN Y LOS EXPRIMIDORES — ARCHIVO
+========================================
+
+CONTENIDO DE LA CARPETA
+  index.html      Estructura, diseño y lógica. NO hace falta tocarlo.
+  datos.js        ★ TODO EL CONTENIDO EDITABLE está aquí: canciones,
+                  fotos, vídeos, biografías, vínculos, citas y el correo.
+  img/            Retratos en WebP, varios anchos por foto.
+  audio/          Las tomas en .m4a.
+  video/          Los vídeos en .mp4 (vacía de momento).
+  fonts/          Tipografías autoalojadas: la web no llama a ningún
+                  servidor externo (ni siquiera a Google Fonts).
+  legal/          Aviso legal, privacidad y cookies. ★ EDITA los datos
+                  del titular en aviso-legal.html antes de publicar.
+  herramientas/   Script que convierte fotos nuevas al formato correcto.
+
+VERLA
+  Doble clic en index.html. Funciona entera sin conexión.
+
+PUBLICARLA
+  Arrastra la CARPETA COMPLETA a https://app.netlify.com/drop
+  (o GitHub Pages, o cualquier hosting).
+
+CÓMO AÑADIR CONTENIDO — LA VÍA FÁCIL (desde Claude)
+  Sube a Claude este ZIP (o solo datos.js) junto con el material nuevo
+  (canciones, fotos o vídeos) y pídele que lo incorpore. Te devolverá
+  los archivos procesados y el datos.js actualizado. No hay que saber
+  programar: todo el contenido vive en ese único archivo.
+
+CÓMO AÑADIR CONTENIDO — LA VÍA MANUAL
+  · CANCIÓN:  copia el .m4a en audio/ y añade su entrada en TRACKS
+              (datos.js): archivo, título, toma y descripción.
+  · FOTO:     original en originals/<músico>/, ejecuta
+              python3 herramientas/procesar-fotos.py
+              y pega la línea que escupe en la lista "fotos" del músico.
+              Con 2+ fotos aparece sola la tira de miniaturas, y todas
+              se amplían al pulsarlas.
+  · VÍDEO:    copia el .mp4 en video/ (H.264+AAC), su cartel en img/,
+              y añade la entrada en VIDEOS (datos.js). La sección deja
+              de mostrar "bobina en tránsito" en cuanto haya uno.
+  · CLIP DE MÚSICO (vertical 9:16, ~10 s): mete el original en
+              originals-clips/<músico>/ y ejecuta
+              python3 herramientas/procesar-clips.py
+              Recomprime el vídeo, saca el cartel del primer fotograma
+              y escupe la línea para "clips" en datos.js. El botón de
+              fotograma de 35 mm aparece solo dentro del retrato.
+
+PLATAFORMAS Y REDES SOCIALES
+  Los botones (Spotify, Apple Music, YouTube Music, SoundCloud,
+  Instagram, TikTok) están bajo la playlist, en estado "pronto".
+  Para activar uno: abre datos.js, busca PLATAFORMAS o REDES y pega
+  el enlace entre las comillas de "url". Nada más: el botón se
+  enciende solo. El crédito de autoría del pie se edita en CREDITO.
+
+ENLACES COMPARTIBLES
+  Cada ficha y cada toma tienen URL propia:
+     tudominio.com/#musico/scarface      tudominio.com/#toma/2
+
+COOKIES Y LEGAL
+  La web no usa cookies de seguimiento; solo guarda la respuesta al
+  aviso de consentimiento en el navegador. Los textos están en legal/
+  y el pie enlaza a ellos. Si algún día añades analítica, actívala solo
+  si localStorage["el-consent"] === "todo", y actualiza legal/cookies.html.
+
+TECLADO
+  Espacio  reproducir · ← → contextual (aguja / fichas / visor)
+  Esc      cierra los visores · n/p  cambia de toma
