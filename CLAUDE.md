@@ -42,8 +42,8 @@ vínculos (LINKS), citas (VOICES), crédito de autoría (CREDITO) y correo
   301), registrados en Arsys, que también lleva el correo.
 - Alojamiento previsto: **GitHub Pages** desde este repositorio; cada
   commit publica. DNS de Arsys apuntando a Pages.
-- El correo de contacto real va en `CONFIG.email` (datos.js); mientras no
-  exista el buzón del dominio, queda el marcador `.example`.
+- El correo de contacto oficial del proyecto es `contacto@evita-limon.es`
+  (definido en `CONFIG.email` de `datos.js`).
 
 ## Comprobaciones antes de publicar cambios
 1. `node --check` sobre el JS extraído de index.html si se tocó código.
