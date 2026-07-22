@@ -48,7 +48,11 @@ const MEMBERS = [
     id:"nemo", nombre:"Nemo", abbr:"tp", alias:["Nemo"],
     rol:"Trompeta", instrumento:"Trompeta de plata", origen:"Xuño (A Coruña)", nacimiento:"—",
     fotos:[
-      { n:"nemo-01", w:[320, 800, 1024], ar:1.0, pos:"49% 8%", pie:"" }
+      { n:"nemo-01", w:[320, 800, 1024], ar:1.0, pos:"48% 20%", pie:"" },
+      { n:"nemo-02", w:[320, 800, 1024], ar:1.0, pos:"26% 27%", pie:"" },
+      { n:"nemo-03", w:[320, 800, 1024], ar:1.0, pos:"50% 14%", pie:"" },
+      { n:"nemo-04", w:[320, 800, 1400, 1536], ar:0.56, pos:"47% 43%", pie:"" },
+      { n:"nemo-05", w:[320, 800, 1400, 1536], ar:0.56, pos:"39% 40%", pie:"" }
     ],
     clips:[],
     chips:["Autodidacta","Nº 1 en 1991","Baker · Davis · Morgan"],
