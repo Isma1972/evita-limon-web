@@ -110,7 +110,15 @@ const MEMBERS = [
 /* ═══ TOMAS ═══ ("Lodo y Sal" son dos tomas distintas del mismo tema) */
 const TRACKS = [
   { file:"insultame-hasta-que-te-canses.mp3", titulo:"Insúltame Hasta Que Te Canses", toma:"",
-    desc:"Versión Jazz Cool-Bossa" }
+    desc:"Versión Jazz Cool-Bossa" },
+  { file:"deja-que-te-diga.mp3", titulo:"Deja Que Te Diga", toma:"",
+    desc:"" },
+  { file:"lo-tengo-claro.mp3", titulo:"Lo Tengo Claro", toma:"",
+    desc:"" },
+  { file:"sintiendolo-mucho.mp3", titulo:"Sintiéndolo Mucho", toma:"",
+    desc:"" },
+  { file:"todo-esta-bien.mp3", titulo:"Todo Está Bien", toma:"",
+    desc:"" }
 ];
 
 /* ═══ VÍNCULOS ═══ */
