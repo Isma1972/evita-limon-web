@@ -68,7 +68,11 @@ const MEMBERS = [
     id:"pinzarroja", nombre:"Pinzarroja Roncero", abbr:"cb", alias:["Pinzarroja Roncero","Pinzarroja","Juan Roncero","el Pinzas","Pinza Roja"],
     rol:"Contrabajo", instrumento:"Contrabajo del desván", origen:"Mieres (Asturias)", nacimiento:"1972",
     fotos:[
-      { n:"pinzarroja-01", w:[320, 800, 1024], ar:1.0, pos:"52% 10%", pie:"" }
+      { n:"pinzarroja-01", w:[320, 800, 1024], ar:1.0, pos:"52% 10%", pie:"" },
+      { n:"pinzarroja-02", w:[320, 800, 1024], ar:1.0, pos:"43% 21%", pie:"" },
+      { n:"pinzarroja-03", w:[320, 800, 1024], ar:1.0, pos:"47% 7%", pie:"" },
+      { n:"pinzarroja-04", w:[320, 800, 1024], ar:1.0, pos:"63% 19%", pie:"" },
+      { n:"pinzarroja-05", w:[320, 800, 1024, 1068], ar:0.74, pos:"64% 22%", pie:"" }
     ],
     clips:[],
     chips:["Bebop","Pajarita","El Pinzas"],
