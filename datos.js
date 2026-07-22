@@ -109,12 +109,6 @@ const MEMBERS = [
 
 /* ═══ TOMAS ═══ ("Lodo y Sal" son dos tomas distintas del mismo tema) */
 const TRACKS = [
-  { file:"deja-que-te-diga.m4a", titulo:"Deja que te diga", toma:"Máster · versión definitiva",
-    desc:"La versión definitiva, con el duelo entre Scarface y Chegüy." },
-  { file:"lodo-y-sal-toma-1.m4a", titulo:"Lodo y sal", toma:"Toma I · original",
-    desc:"El ADN original de Evita. Blues pantanoso en estado puro." },
-  { file:"lodo-y-sal-toma-2.m4a", titulo:"Lodo y sal", toma:"Toma II · vientos y coros",
-    desc:"Coros potentes y arreglos de viento más agresivos." }
 ];
 
 /* ═══ VÍNCULOS ═══ */
