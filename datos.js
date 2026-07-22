@@ -35,7 +35,9 @@ const MEMBERS = [
     fotos:[
       { n:"evita-01", w:[320, 800, 1400, 2000], ar:1.79, pos:"34% 22%", pie:"" }
     ],
-    clips:[],
+    clips:[
+      { file:"evita-clip01.mp4", poster:"img/evita-clip01.webp", ar:0.5625, pie:"" }
+    ],
     chips:["Oído absoluto","Memento mori","Sin tacones"],
     bio:[
       "Evita Limón tiene unos cuarenta y un años. Su pelo recuerda al de Esperanza Spalding. Tiene una piel increíblemente sedosa y más que negra es mulata. Es una mujer con formas, que suele vestir con vestidos largos de una sola pieza que, en muchas ocasiones, llevan la espalda al aire. Su rostro es bello, de una belleza un tanto exótica, entre otras cosas porque sus ojos son un tanto orientales y sus labios carnosos, aunque sin exageración. Nunca lleva tacones: dice que no sabe andar con ellos. Una de sus señas de identidad es llevar un pañuelo colorido atado al pelo, a modo de diadema. Le gustan los collares, las pulseras y los pendientes de aro. En uno de sus brazos lleva tatuado un *memento mori*.",
