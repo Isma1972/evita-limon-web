@@ -109,6 +109,8 @@ const MEMBERS = [
 
 /* ═══ TOMAS ═══ ("Lodo y Sal" son dos tomas distintas del mismo tema) */
 const TRACKS = [
+  { file:"insultame-hasta-que-te-canses.mp3", titulo:"Insúltame Hasta Que Te Canses", toma:"",
+    desc:"Versión Jazz Cool-Bossa" }
 ];
 
 /* ═══ VÍNCULOS ═══ */
